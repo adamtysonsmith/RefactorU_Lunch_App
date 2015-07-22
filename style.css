@@ -1,0 +1,18 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+#available {
+    position: fixed;
+    bottom: 0;
+}
+.category {
+    display: inline-block;
+    width: 20%;
+}
+#result-category-list {
+    padding-left: 0;
+}
+#result-category-list li {
+    list-style: none;
+}

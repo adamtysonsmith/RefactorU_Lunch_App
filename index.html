@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Lunch Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <h1>What's for Lunch?</h1>
+        <button class="btn btn-warning" id="button-random">Find me a Restaurant</button>
+        <select class="form-control category">
+          <option selected="selected">Or... Choose a Category</option>
+          <option value="American">American</option>
+          <option value="Asian">Asian</option>
+          <option value="Deli">Deli</option>
+          <option value="Indian">Indian</option>
+          <option value="Mexican">Mexican</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Mystery">I'm Feeling Lucky</option>
+        </select>
+        <hr>
+        <h2 id="result-name"></h2>
+        <h4 id="result-category"></h4>
+        <ul id="result-category-list"></ul>
+        <p id="available"></p>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/3.9.3/lodash.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
